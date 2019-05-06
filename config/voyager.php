@@ -124,13 +124,13 @@ return [
         /*
          * Select default language
          */
-        'default' => 'en',
+        'default' => 'nl',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
-            'en',
+            'nl',
             //'pt',
         ],
     ],
@@ -201,9 +201,9 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#333333',
 
-    'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
+    'show_dev_tips' => false, // Show development tip "How To Use:" in Menu and Settings
 
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
